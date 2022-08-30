@@ -19,10 +19,10 @@ int main()
 	cout << "Please enter a value for B: ";
 	cin >> B;
 
-	cout << "Okay, so A=" << A << endl;
-	cout << "And B=" << B << endl;
+	cout << "Okay, so A = " << A << endl;
+	cout << "And B = " << B << endl;
 	
-	cout << "Lets solve this equation for x!" << endl;
+	cout << "Lets solve this equation for " << A << "x + " << B << " = 0" << endl;
 
 	X = (0 - B) / A;
 	cout << "Solved it!" << endl;
